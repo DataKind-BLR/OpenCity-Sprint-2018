@@ -1,7 +1,7 @@
 # OpenCity-Sprint-2018
 - [What is a Sprint?](https://github.com/DataKind-BLR/Sprint/wiki)
 - [About OpenCity](https://github.com/DataKind-BLR/OpenCity-Sprint-2018/blob/master/README.md#about-opencity)
-- [Problem Statement] (https://github.com/DataKind-BLR/OpenCity-Sprint-2018/wiki)
+- [Problem Statement](https://github.com/DataKind-BLR/OpenCity-Sprint-2018/wiki)
 - [What would you like to solve for OpenCity?](https://github.com/DataKind-BLR/OpenCity-Sprint-2018/issues)
 - [Getting started with Github](https://github.com/DataKind-BLR/OpenCity-Sprint-2018/blob/master/README.md#about-git
 ) 
