@@ -1,7 +1,7 @@
 import json
 import argparse
-import 
-import get_proxies_google
+import overpass_data
+import google_data
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
