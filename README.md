@@ -1,8 +1,8 @@
 # OpenCity-Sprint-2018
 - [What is a Sprint?](https://github.com/DataKind-BLR/Sprint/wiki)
-- [About OpenCity](https://github.com/DataKind-BLR/OpenCity-Sprint-2018/blob/master/README.md#about-opencity)
+- [About OpenCity](https://github.com/DataKind-BLR/OpenCity-Sprint-2018#about-opencity)
 - [Problem Statement](https://github.com/DataKind-BLR/OpenCity-Sprint-2018/wiki)
-- [Volunteering Opportunities](https://github.com/DataKind-BLR/OpenCity-Sprint-2018/master/README.md#Volunteering-Opportunities)
+- [Volunteering Opportunities](https://github.com/DataKind-BLR/OpenCity-Sprint-2018#volunteering-opportunities)
 - [What would you like to solve for OpenCity?](https://github.com/DataKind-BLR/OpenCity-Sprint-2018/issues)
 
 ## About OpenCity
