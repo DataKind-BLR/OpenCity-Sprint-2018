@@ -68,7 +68,7 @@
     - BMTC - DC
     - Basic portal - Mullai, Ramya
     - Air Quality - Srikanth, DC
-    - Reachablity model - Shobana, Ananaditha
+    - Reachablity model - Shobana, Ananaditha, Ajay
     - Map KML to wards - Ramya, Shilpa, Manish
     - Architecture setup - DC, Ramya
 
