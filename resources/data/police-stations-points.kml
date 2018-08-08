@@ -1,0 +1,808 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="SELECT" id="SELECT">
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+</Schema>
+<Folder><name>SELECT</name>
+  <Placemark>
+	<name>HSR Police station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">266472194</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.651371,12.9200997</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">267216389</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6719632,12.8854804</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hebbagodi Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">283650908</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6820851,12.8263652</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>DCP Bangalore North Traffic Police</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">295766640</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5581675,13.0181973</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jayanagar 4th Block Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">303925790</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5813657,12.9285653</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Madiwala Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">307407594</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6206627,12.9210215</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hennur Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">359313752</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6379362,13.0336201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sadhashivanagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">374216498</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5725395,13.0149251</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Yelahanka Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">410603052</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5938879,13.0951985</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kothanur Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">419806860</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6514188,13.0601905</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cubbon Park Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">428843493</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5983458,12.9762399</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Maleshwaram Police station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">428857750</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5695903,12.9966811</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Electronics City Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">459436210</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6631389,12.839963</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Basavangudi Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">493493744</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5741507,12.9422105</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jalahalli Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">521144416</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5495673,13.0486481</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Basaveshwaranagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">529897859</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5425698,12.9854915</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RT Nagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">582566949</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5931079,13.0247495</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Commisioner of Police</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">660666061</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5945631,12.9850253</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Police Headquarters</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">663317752</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5877623,12.9695368</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>S.J. Park Police</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">683352671</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5831616,12.9609637</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tilaknagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">691164726</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5905691,12.928367</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Banaswadi Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">762079646</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6401032,13.0197904</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ramamurthinagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">818628224</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6677174,13.0121841</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HAL Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">844415776</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6827958,12.9550828</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Indira Nagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">844462412</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6384106,12.983019</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jeevan Bhima Nagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">940525605</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6556937,12.9677712</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mico Layout Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">951203526</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6105652,12.9086369</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Girinagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">953626886</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5439681,12.935917</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sanjaynagar Police station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">966862788</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5758979,13.0335598</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Seshadripuram Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1026508950</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5743475,12.9879201</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Varthur Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1103184464</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7468592,12.9379903</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rajaji Nagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1118255762</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.554298,12.9945063</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hebbal Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1299725537</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5896244,13.0386192</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kumaraswamy Layout Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1331929349</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5628652,12.905196</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vyali Kaval Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1462686365</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.578628,13.0015732</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Yelahanka New Town</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1463617225</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5803145,13.1003251</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Koramangala Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1464792247</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6217662,12.9414357</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Subramanyapura Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1466618581</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5428228,12.89776</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Harohalli Police station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1466742314</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4693429,12.6804936</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Mahalaxmi Layout Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1467779094</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5472925,13.002773</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nelamangala Police station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1471781362</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.3912404,13.0994535</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nelamangala Rural Police station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1471836954</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4036456,13.0958954</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1472981151</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5615008,12.9363435</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Jp Nagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1473782433</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5875826,12.9117381</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Wilson Garden Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1473809320</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5960584,12.950198</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Ashoka Pillar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1474242215</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5854209,12.9433946</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Commercial Street Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1474302941</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6069272,12.9826133</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vijaynagar Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1474835635</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5414869,12.9733449</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kadugodi Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1497217077</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7574684,12.995384</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Indiranagar Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1500601533</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6559012,12.967409</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sarjapur Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1678236118</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7832457,12.8606263</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vijayanagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1778917090</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5377251,12.9707264</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chamarajapet Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1789726678</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5643202,12.9604765</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Shankarapuram Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1791567417</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.570101,12.9538729</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Peenya Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1794656846</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5211853,13.0360107</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Cottenpet Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1806966026</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5700945,12.9680925</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Women Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1815951927</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5678506,12.9292268</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Thyagaraja Nagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1815951935</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5678479,12.929436</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>BSK 3rd stage Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1816331548</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5533335,12.9235553</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rajajinagar Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1820438239</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5510328,12.9745175</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Krishna Rajendra Market Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1843611471</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5761878,12.9649402</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hulimavu Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">1918889488</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6000418,12.87667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chikkapete Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">2016154125</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5736393,12.9707012</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Nandini Layout Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">2090827123</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5368288,13.0124684</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vivek Nagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">2120446834</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6223141,12.9515258</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Banashankari Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">2123630629</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5650055,12.9229116</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Baiyyapannahalli Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">2275128264</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6572785,12.9916103</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kodigehalli Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">2340693281</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5741087,13.0621975</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Trafic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">2344385363</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.8270513,12.7279317</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hosur Town Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">2344410073</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.827283,12.7267546</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rural Police Station,Thyamagondulu</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">2432478978</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.300644,13.2158301</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">2473514768</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7819611,12.9874708</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>KR Puram Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">2475284845</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6939194,13.0079871</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hennur Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">2475357989</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6457711,13.0237703</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sampangi Rama Nagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">2577231853</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5920638,12.9632542</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Indiranagar Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">3369937900</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6404269,12.978243</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Karnataka State Reserve Police</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">3476877518</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6164005,12.9695489</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vidhana Soudha Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">3761248698</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5884362,12.9773726</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Traffic Police Cabin</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">3783584167</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.7011085,12.9568555</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>J J R nagar Police station </name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4101097589</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5551587,12.9643591</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Avenue Road Police Chowky</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4209499020</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5787039,12.9680176</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Hulimavu Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4443656796</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5889783,12.8565752</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Chennamanakere Achukattu Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4444115045</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5606044,12.9301326</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Rajarajeshwari Nagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4444155006</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5205949,12.912895</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HSR Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4445356402</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6616311,12.9217846</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Electronics City Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4447380551</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6615231,12.8394178</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>HAL Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4447398385</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.667597,12.9583981</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>RT Nagar Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4447405124</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5884816,13.0336526</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Upparpet Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4447422294</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5748342,12.9744833</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Vijayanagar Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4447436362</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5386676,12.9724461</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Adugodi Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4447438471</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6087255,12.9414086</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Halasoorgate Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4447479338</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5871327,12.9667888</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Bharthinagar Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4447491023</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6120294,12.9912632</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Thalaghattapura Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4457764089</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5362854,12.8689461</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4472318420</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.6368327,12.9081741</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Byadarahalli Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4518518597</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.4910988,12.9866926</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kaggalipura Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4636471341</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5085132,12.8014297</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Whitefield Police Station -Office of the Deputy Commisionner</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">4864119556</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.751145,12.9753904</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>High Grounds Traffic Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">5229482744</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.5828907,12.9848902</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Adugori Police Station</name>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_id">5395316021</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>77.610234,12.939265</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="SELECT" id="SELECT">
+	<SimpleField name="osm_id" type="string"></SimpleField>
+	<SimpleField name="osm_way_id" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+</Schema>
+<Folder><name>SELECT</name>
+  <Placemark>
+	<name>Siddapura Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">131396829</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.5923254,12.9387276 77.5922725,12.938944 77.5924273,12.93898 77.5924802,12.9387636 77.5923254,12.9387276</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Whitefield Traffic Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">136492654</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.7571766,12.9942789 77.7572292,12.9942641 77.7571942,12.9941471 77.7571204,12.9941693 77.7571472,12.994261 77.7571695,12.9942547 77.7571766,12.9942789</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Central Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">166769940</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.5718264,12.9598148 77.5717843,12.9603543 77.5718285,12.9604374 77.5719548,12.9604458 77.5723401,12.9603402 77.572324,12.9598835 77.5718264,12.9598148</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Ulsoor Gate Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">208827398</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.5870965,12.9669375 77.5871595,12.9668975 77.5872208,12.9668417 77.5872352,12.9668113 77.5872122,12.9666555 77.5870112,12.9667416 77.5870965,12.9669375</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Upparapet Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">208827399</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.5747215,12.9746635 77.5754219,12.9745299 77.5751478,12.9744349 77.5747336,12.9743786 77.5747062,12.9744171 77.5747215,12.9746635</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Mahadevpura Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">219618409</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.6927356,12.9967063 77.6927665,12.9968766 77.6928904,12.9968552 77.6928595,12.9966849 77.6927356,12.9967063</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Whitefield Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">224072115</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.7270525,12.9731067 77.7270574,12.9732354 77.7272504,12.9732285 77.7272455,12.9730998 77.7270525,12.9731067</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Police Quarters</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">246344386</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.6189665,12.9987064 77.6192754,12.9991207 77.6196884,12.999062 77.6192125,12.9982645 77.6188128,12.9984977 77.6187485,12.9986262 77.6189665,12.9987064</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Srirampura Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">271785239</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.5647598,12.9901901 77.5651183,12.9901752 77.5651029,12.9899106 77.5647546,12.9899156 77.5647649,12.9900579 77.5647598,12.9901901</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Cubbon Park Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">327551781</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.5985444,12.97625 77.5980696,12.9759395 77.5979021,12.9761912 77.5983319,12.9765196 77.5985444,12.97625</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Indira Nagar Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">331352075</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.6385556,12.9832174 77.6385861,12.9828531 77.6382267,12.9828335 77.6382229,12.9829003 77.6382142,12.9830714 77.6382307,12.9831096 77.6385556,12.9832174</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Subramanyanagar Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">345932701</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.5536795,13.003642 77.5537143,13.0037559 77.5537826,13.0037361 77.5537953,13.0037777 77.5538897,13.0037503 77.5538422,13.0035948 77.5536795,13.003642</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Pulakeshi Nagar police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">346011128</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.6195501,12.999383 77.6196051,12.9993739 77.6196201,12.9994603 77.6197683,12.9994358 77.6197533,12.9993494 77.6198003,12.9993417 77.6197748,12.9991952 77.6195246,12.9992366 77.6195337,12.999289 77.6194817,12.9992976 77.6194918,12.9993556 77.6195438,12.999347 77.6195501,12.999383</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Amrutahalli Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">346481825</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.5986541,13.0569381 77.5986305,13.0568352 77.5984513,13.0568741 77.5984749,13.056977 77.5986541,13.0569381</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Soladevanahalli Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">348159485</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.4909675,13.0939333 77.4907152,13.0935506 77.4905475,13.0936555 77.4907998,13.0940382 77.4909675,13.0939333</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Ramanagara Prison</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">367581709</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.2963533,12.7336795 77.2972107,12.7338239 77.297277,12.7331619 77.2964656,12.7330225 77.2963533,12.7336795</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Halasuru Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">369295553</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.625202,12.9746769 77.6251133,12.9748164 77.6252874,12.9749206 77.6253494,12.9749102 77.6254157,12.974806 77.625202,12.9746769</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Ashok Nagar Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">403473919</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.6104061,12.9717553 77.6103268,12.9714566 77.6099405,12.971535 77.6100076,12.9718199 77.6104061,12.9717553</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>High Grounds Police Station</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">437657912</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.5884448,12.9867781 77.5885758,12.986678 77.5886214,12.9865905 77.588667,12.9864467 77.588655,12.9863396 77.5886429,12.9862729 77.5885906,12.9861527 77.5885404,12.9860153 77.5885286,12.9859866 77.588149,12.9862597 77.5884448,12.9867781</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#SELECT">
+		<SimpleData name="osm_way_id">537716165</SimpleData>
+		<SimpleData name="amenity">police</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>77.6462872,13.0556749 77.6464286,13.0556636 77.6464083,13.0554205 77.6462668,13.0554317 77.6462872,13.0556749</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
