@@ -2,7 +2,8 @@ var map = L.map('map').setView([12.9889, 77.6221], 11)
 
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-  subdomains: ['a', 'b', 'c']
+  subdomains: ['a', 'b', 'c'],
+  minZoom: 11
 }).addTo(map)
 var data
 $.getJSON('resources/data/bbmp-wards.json', function (data) {
@@ -21,10 +22,10 @@ function style (feature) {
     }
 }
 
-  L.geoJson(data, {style: style}).addTo(map)
-
 function highlightFeature (e) {
-    var layer = e.target
+
+  // map.fitBounds(e.target.getBounds())
+  var layer = e.target
 
   layer.setStyle({
       weight: 5,
@@ -41,18 +42,19 @@ function highlightFeature (e) {
 
   function resetHighlight (e) {
     geojson.resetStyle(e.target)
-  info.update()
-}
+    info.update()
+  }
 
   function zoomToFeature (e) {
     map.fitBounds(e.target.getBounds())
-}
+
+  }
 
   function onEachFeature (feature, layer) {
     layer.on({
       mouseover: highlightFeature,
       mouseout: resetHighlight,
-      click: zoomToFeature
+      dblclick: zoomToFeature
     })
 }
 
