@@ -1,6 +1,9 @@
 # Node modules
 node_modules/
 
+# jetbrains index
+.idea/
+
 # Temp files in Computer
 .DS_Store
 
