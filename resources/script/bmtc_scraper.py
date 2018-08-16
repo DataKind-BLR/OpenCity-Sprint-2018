@@ -17,12 +17,13 @@ except:
     print("Running from page 1")
 
 url = "http://www.mybmtc.com/service/timings/gns/General%20Services"
+db = 'bmtc.sqlite'
 
 
-def load_routes(start_page_number, final_page_number):
-    con = lite.connect('bmtc.sqlite')
+def load_routes(start, end):
+    con = lite.connect(db)
     cur = con.cursor()
-    for page_number in range(start_page_number, final_page_number):
+    for page_number in range(start, end):
         print("=========================" + str(page_number) + "==========================================")
         html_url = ""
         if page_number == 1:
@@ -43,15 +44,15 @@ def load_routes(start_page_number, final_page_number):
                 first = False
             else:
                 route = i.find("p", {"id": "routeno"})
-                route_text = (route.text).replace("Route NO:", "")
+                route_text = route.text.replace("Route NO:", "")
 
                 origin = i.find("p", {"id": "origin"})
-                origin_text = (origin.text).replace("Origin :", "")
+                origin_text = origin.text.replace("Origin :", "")
 
                 destination = i.findAll("p", {"id": "destination"})
-                destination_text = (destination[0].text).replace("Destination :", "")
-                destination_time_text = (destination[1].text).replace("Journey Time :", "")
-                destination_distance_text = (destination[2].text).replace("Journey Distance :", "")
+                destination_text = destination[0].text.replace("Destination :", "")
+                destination_time_text = destination[1].text.replace("Journey Time :", "")
+                destination_distance_text = destination[2].text.replace("Journey Distance :", "")
 
                 viewbusstop = i.find("p", {"id": "viewbusstop"})
                 viewbusstop_anchor = viewbusstop.findAll("a")
@@ -87,8 +88,8 @@ def load_routes(start_page_number, final_page_number):
     con.close()
 
 
-def loadBusstopMapJSON():
-    con = lite.connect('bmtc.sqlite')
+def load_bus_stop_map_json():
+    con = lite.connect(db)
     cur = con.cursor()
     cur.execute("select map_link, route_no  FROM routes where map_json_content is null")
     rows = cur.fetchall()
@@ -122,8 +123,8 @@ def get_json_content(row):
     return document
 
 
-def loadBusStop():
-    con = lite.connect('bmtc.sqlite')
+def load_bus_stop():
+    con = lite.connect(db)
     cur = con.cursor()
     cur.execute("select map_json_content, route_no  FROM routes where map_json_content is not null")
     rows = cur.fetchall()
@@ -159,10 +160,11 @@ def loadBusStop():
 
 
 def load_timings():
-    con = lite.connect('bmtc.sqlite')
+    con = lite.connect(db)
     cur = con.cursor()
     cur.execute(
-        "select route_no, departure_from_origin, arrival_at_destination, departure_from_destination, arrival_at_origin  FROM routes ")
+        "select route_no, departure_from_origin, arrival_at_destination, departure_from_destination, "
+        "arrival_at_origin  FROM routes ")
     rows = cur.fetchall()
     cur2 = con.cursor()
     for row in rows:
@@ -203,7 +205,7 @@ def load_timings():
 
 
 def clear_db():
-    con = lite.connect('bmtc.sqlite')
+    con = lite.connect(db)
     cur = con.cursor()
     cur.execute('DELETE from routes')
     con.commit()
@@ -220,7 +222,7 @@ def export_to_csv():
     bus_route_file = open('bus_route.csv', 'w')
     timings_file = open('timings.csv', 'w')
 
-    connection = lite.connect('bmtc.sqlite')
+    connection = lite.connect(db)
     cursor1 = connection.cursor()
     cursor1.execute('select * from routes')
     write_to_file(cursor1, routes_file)
