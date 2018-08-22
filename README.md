@@ -65,12 +65,11 @@
     - Green cover, parks
     - polling stations
   - Remaining tasks and signed up people
-    - BMTC - DC
-    - Basic portal - Mullai, Ramya
-    - Air Quality - Srikanth, DC
+    - Livability Model - Raghuram, Atish, Mullai
+    - Superset setup - DC, Ramya
+    - Scrape polling station locations - DC, Mahesh Maney
     - Reachablity model - Shobana, Ananaditha, Ajay
-    - Map KML to wards - Ramya, Shilpa, Manish
-    - Architecture setup - DC, Ramya
+    - EDA - Veena, Shilpa
 
 ## Current technologies being used
 - Python
