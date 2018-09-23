@@ -70,7 +70,7 @@
     - Scrape polling station locations - DC, Mahesh Maney
     - Reachablity model - Shobana, Ananaditha, Ajay
     - EDA - Veena, Shilpa
-  - Drive: All datasets and other resources listed [here](https://drive.google.com/drive/u/1/folders/18iHa-gSUdkn0P07lQi5loeGB_bRLD2b1) 
+  - Drive: All datasets and other resources listed [here](https://drive.google.com/drive/u/1/folders/1E6gX6oPp7koAskiLDRVXuDS3dAd6v9rq) 
 
 ## Current technologies being used
 - Python
