@@ -43,6 +43,7 @@
 # Sanitation
 * Num of landfills
 * Num of epidemic outbreaks
+* Num of public toilets
 # Safety & Security
 * Crime rates
 * Communal????
