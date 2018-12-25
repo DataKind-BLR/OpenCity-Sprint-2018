@@ -38,7 +38,7 @@
   - Data Design
     - See how effectively various indicators can be packed for end users
   - Visual Design and Data Visualization
-    - To model and implement an interface for variuos stakeholders (Citizen, Government officials, Journalists etc..) to select, prioritize and visualize indicators.
+    - To model and implement an interface for various stakeholders (Citizen, Government officials, Journalists etc..) to select, prioritize and visualize indicators.
      
   ### Data Science
   - Data Analysis
