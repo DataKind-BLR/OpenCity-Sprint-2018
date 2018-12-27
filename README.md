@@ -56,16 +56,16 @@
       - Create a model to calulate the safety of an area based on data points like street light cover, police stations etc... 
   
   - Model Livability index
-    - Given all the datapoints model a way to compute livability index at ward level of a particular city (Bengaluru)
+    - Given all the datapoints, model a way to compute livability index at ward level of a particular city (Bengaluru)
 
 ## Current Project State
   - Indicators
-    - Various indicators brainstromed for the project are listed [here](https://docs.google.com/spreadsheets/d/1yrmouKdaCkhYW6U-Kh0UhcDiSBooThtr9fjFY6VgWTU/edit#gid=0)
+    - Various indicators brainstormed for the project are listed [here](https://docs.google.com/spreadsheets/d/1yrmouKdaCkhYW6U-Kh0UhcDiSBooThtr9fjFY6VgWTU/edit#gid=0)
   - Data Sources pending to collect/scrape
     - Green cover, parks
     - polling stations
   - Remaining tasks and signed up people
-    - Livability Model - Raghuram, Atish, Mullai
+    - Liveability Model - Raghuram, Atish, Mullai
     - Superset setup - DC, Ramya
     - Scrape polling station locations - DC, Mahesh Maney
     - Reachablity model - Shobana, Ananaditha, Ajay
