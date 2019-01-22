@@ -32,12 +32,15 @@ shinyServer(function(input, output) {
   routesData$time <- sapply(strsplit(routesData$time, " "), head, 1)
   routesData$duration_min <- (as.numeric(sapply(strsplit(routesData$time, ":"), head, 1)) * 60) + as.numeric(sapply(strsplit(routesData$time, ":"), tail, 1))
   
+  # Create a new column that labels each route a Round trip or Single trip
   routesData$tripType <- ifelse(as.character(routesData$origin) == as.character(routesData$destination), "Round", "Single")
 
+  # Subsetting Data according to distance filter from slider Input
   distance_filter <- reactive({
     distance_filter <- subset(routesData,(routesData$distance >= input$slider_RouteDistance[1]) & (routesData$distance <= input$slider_RouteDistance[2]))
   })
   
+  # UI definition for Duration slider since it requires dynamic updated slider range based on distance slider.
   output$slider_duration <- renderUI({
     sliderInput("durationSlider",
                 label = h4("Route Duration"), 
@@ -47,34 +50,42 @@ shinyServer(function(input, output) {
     )
   })
   
+  # Removing unwanted columns from data inorder to provide only relevant data summary.
   cleanColumnData <- reactive ({
-    #tripType
+
     removeColumns <- c("X", "tripType", "duration_min")
     cleanColumnData <- routesData[!(colnames(routesData) %in% removeColumns )]
   })
   
+  # UI definition to select the required column
   output$columnSelection <- renderUI({
     selectInput("column", "Column:", 
                 choices=colnames(cleanColumnData()))
   })
   
+  # Filter to select only the required column
   columnFilter <- reactive({
     columnFilter <- cleanColumnData()[input$column]
   })
   
-  output$ColumnStats <- renderText({
-    paste("You have selected ", colnames(columnFilter()))
+  # Ouput text that displays details of chosen column
+  output$ChosenColumn <- renderText({
+    
     paste("Column Class is ", sapply(cleanColumnData(), class)[input$column])
+    
   })
   
+  # Filter Data according duration slider based on the data filtered from distance slider
   distance_duration_filter <- reactive({
     distance_duration_filter<- subset(distance_filter(),(distance_filter()$duration_min >= input$durationSlider[1]) & (distance_filter()$duration_min <= input$durationSlider[2]))
   })
   
+  # Creating a temporary storage for summarising round trip and single trips
   distanceRangeWiseRoutesdf <- reactive({
     distanceRangeWiseRoutesdf <- distance_duration_filter() %>% group_by(tripType) %>% dplyr::summarise(n = n())
   })
   
+  # Plotting bar plot to display frequencies of round trip and single trips
   output$roundTripFreq <- renderPlot({
     
     ggplot(distanceRangeWiseRoutesdf(), aes(tripType, n, label = n))+
@@ -90,6 +101,7 @@ shinyServer(function(input, output) {
             plot.title = element_text(hjust = 0.5))
   })
   
+  # Plotting scatter plot to display distance vs duration
   output$distanceDurationScatter <- renderPlot({
     
     ggplot(distance_duration_filter(), aes(duration_min, distance, color = duration_min)) +
@@ -102,7 +114,12 @@ shinyServer(function(input, output) {
     scale_color_gradient(low = "#0091ff", high = "#f0650e")
   })
   
+  # Plotting the data table with the data as per both distance and duration filters
   output$tripFreqDatatable <- renderDataTable({
     distance_duration_filter()[c("route_no","distance","origin", "destination", "duration_min")]
   })
 })
+
+# TODO
+# Dataset summary
+# Missing value count

@@ -21,7 +21,7 @@ shinyUI(fluidPage(navbarPage("BMTC Exploratory Data Analysis",
                                             uiOutput("columnSelection")
                                           ),
                                           mainPanel(
-                                            textOutput("ColumnStats")
+                                            textOutput("ChosenColumn")
                                           )
                                         )
                                       )
@@ -51,11 +51,5 @@ shinyUI(fluidPage(navbarPage("BMTC Exploratory Data Analysis",
                                       fluidRow(
                                         dataTableOutput("tripFreqDatatable")
                                       )
-                                      ),
-                             tabPanel(
-                               "Dataset Summary",
-                                      fluidRow(
-                                                HTML("<center><h2>Routes Data</h2></center>"),
-                                                verbatimTextOutput("busRoutesDataSummary")
-                                                )))
+                                      ))
 ))
