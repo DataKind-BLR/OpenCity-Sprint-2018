@@ -111,3 +111,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+resources/App/BMTC/timings.csv
+resources/App/BMTC/routes.csv
+resources/App/BMTC/bus_route.csv

@@ -21,7 +21,7 @@ shinyUI(fluidPage(navbarPage("BMTC Exploratory Data Analysis",
                                             uiOutput("columnSelection")
                                           ),
                                           mainPanel(
-                                            HTML("TODO Viz here")
+                                            textOutput("ColumnStats")
                                           )
                                         )
                                       )

@@ -11,6 +11,7 @@ library(shiny)
 library(plyr)
 library(dplyr)
 library(stringr)
+library(ggplot2)
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
@@ -46,9 +47,24 @@ shinyServer(function(input, output) {
     )
   })
   
+  cleanColumnData <- reactive ({
+    #tripType
+    removeColumns <- c("X", "tripType", "duration_min")
+    cleanColumnData <- routesData[!(colnames(routesData) %in% removeColumns )]
+  })
+  
   output$columnSelection <- renderUI({
     selectInput("column", "Column:", 
-                choices=colnames(routesData))
+                choices=colnames(cleanColumnData()))
+  })
+  
+  columnFilter <- reactive({
+    columnFilter <- cleanColumnData()[input$column]
+  })
+  
+  output$ColumnStats <- renderText({
+    paste("You have selected ", colnames(columnFilter()))
+    paste("Column Class is ", sapply(cleanColumnData(), class)[input$column])
   })
   
   distance_duration_filter <- reactive({
