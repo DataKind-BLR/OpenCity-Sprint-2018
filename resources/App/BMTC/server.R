@@ -40,6 +40,11 @@ shinyServer(function(input, output) {
     distance_filter <- subset(routesData,(routesData$distance >= input$slider_RouteDistance[1]) & (routesData$distance <= input$slider_RouteDistance[2]))
   })
   
+  output$dimensions <- renderPrint({
+    busRouteStats <- paste("There are", nrow(routesData), "rows and", ncol(routesData), "columns for routes.")
+    print(busRouteStats)
+  })
+  
   # UI definition for Duration slider since it requires dynamic updated slider range based on distance slider.
   output$slider_duration <- renderUI({
     sliderInput("durationSlider",

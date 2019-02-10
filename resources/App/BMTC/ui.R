@@ -16,13 +16,8 @@ shinyUI(fluidPage(navbarPage("BMTC Exploratory Data Analysis",
                                         HTML("<center><h2>Schema Analysis</h2></center>")
                                         ),
                                       fluidRow(
-                                        sidebarLayout(
-                                          sidebarPanel(
-                                            uiOutput("columnSelection")
-                                          ),
-                                          mainPanel(
-                                            textOutput("ChosenColumn")
-                                          )
+                                        tabsetPanel(
+                                          tabPanel("Summary", h4(verbatimTextOutput("dimensions")))
                                         )
                                       )
                                       ),
