@@ -100,7 +100,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("-i", "--input", help="path of the locations csv file", required=True)
     parser.add_argument("-o", "--output", help="path to output json", required=True)
-    parser.add_argument("-d", "--distance", help="radius to consider when fethcing features", required=False,
+    parser.add_argument("-d", "--distance", help="radius to consider when fetching features", required=False,
                         default=500)
 
     args = parser.parse_args()
