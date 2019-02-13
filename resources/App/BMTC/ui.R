@@ -17,7 +17,13 @@ shinyUI(fluidPage(navbarPage("BMTC Exploratory Data Analysis",
                                         ),
                                       fluidRow(
                                         tabsetPanel(
-                                          tabPanel("Summary", h4(verbatimTextOutput("dimensions")))
+                                          tabPanel("Summary", 
+                                                   h4(verbatimTextOutput("dimensions")),
+                                                   h4(verbatimTextOutput("structure"))
+                                                   ),
+                                          tabPanel("Data Table",
+                                                   dataTableOutput("dataTable")
+                                                   )
                                         )
                                       )
                                       ),

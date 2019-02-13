@@ -20,6 +20,9 @@ shinyServer(function(input, output) {
   busRoutesData <- read.csv(file="bus_route.csv", header=TRUE, sep=",")
   timingsData <- read.csv(file="timings.csv", header=TRUE, sep=",")
   
+  #Storing raw data to display
+  unCleanData <- routesData
+  
   # Remove the distance unit from the data and retain only distance value
   routesData$distance <- as.character(routesData$distance)
   routesData$distance <- sapply(routesData$distance,str_trim)
@@ -40,10 +43,26 @@ shinyServer(function(input, output) {
     distance_filter <- subset(routesData,(routesData$distance >= input$slider_RouteDistance[1]) & (routesData$distance <= input$slider_RouteDistance[2]))
   })
   
+  # Display dimensions of the dataset
   output$dimensions <- renderPrint({
-    busRouteStats <- paste("There are", nrow(routesData), "rows and", ncol(routesData), "columns for routes.")
+    busRouteStats <- paste("There are", nrow(unCleanData), "rows and", ncol(unCleanData), "columns for routes.")
     print(busRouteStats)
   })
+  
+  # Display structure of the dataset
+  output$structure <- renderPrint({
+    print(str(unCleanData))
+  })
+  
+  # Display summary of the dataset
+  output$summary <- renderPrint({
+    print(summary(unCleanData))
+  })
+  
+  # Display raw data in a table
+  output$dataTable <- renderDataTable({
+    unCleanData
+  }, options = list(bFilter=1), searchDelay = 500)
   
   # UI definition for Duration slider since it requires dynamic updated slider range based on distance slider.
   output$slider_duration <- renderUI({
@@ -126,5 +145,4 @@ shinyServer(function(input, output) {
 })
 
 # TODO
-# Dataset summary
 # Missing value count
